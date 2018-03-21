@@ -1,5 +1,6 @@
 [ignore]
 ./plugins/*/build
+./examples
 [include]
 
 [libs]
