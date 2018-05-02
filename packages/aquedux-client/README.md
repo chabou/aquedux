@@ -25,6 +25,8 @@
     const store = createStore(reducer, ...)
   ```
 
+  :warning: You have to add aquedux reducer. If you have a only one reducer, please use combineReducers with it.
+
   ## createAqueduxClient(store, options = {})
 
   Returns an aquedux client used to send and listen to actions over a websocket connection with an aquedux-server instance.
